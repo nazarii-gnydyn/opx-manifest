@@ -62,7 +62,7 @@
 
   <!-- The following section is for build tools and scripts -->
   <project path="opx-build" name="opx/opx-build"/>
-  <project path="opx-onie-installer" remote="pyadvichuk" revision="opx-onie-installer-cavm"/>
+  <project name="opx-onie-installer" remote="pyadvichuk" revision="opx-onie-installer-cavm"/>
 
   <!-- The metapackage containing all platform-independent packages -->
   <project path="opx-core" name="opx/opx-core"/>
