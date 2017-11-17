@@ -25,7 +25,7 @@
   <project path="opx-nas-interface" name="opx/opx-nas-interface" revision="712f7fcd47f61c6519e8a99acbbeba837574bcb8"/>
   <project path="opx-nas-l2" name="opx/opx-nas-l2" revision="ab555ab8120a473195a305ab7588f307ae97b1d9"/>
   <project path="opx-nas-l3" name="opx/opx-nas-l3" revision="b92469016ed1e26d314e64da125102dae45caf78"/>
-  <project path="opx-nas-ndi" name="opx/opx-nas-ndi" revision="aeaa6f648bff36b8f72fb80dc4f5fef084c860ce"/>
+  <project path="opx-nas-ndi" name="opx/opx-nas-ndi" revision="	26d90e2fd5092a9b1801474ad24374cf75e22ee1"/>
   <project path="opx-nas-ndi-api" name="opx/opx-nas-ndi-api" revision="94bbe14ef418f53759adc2919f6df48ebbf85f6b"/>
   <project path="opx-nas-qos" name="opx/opx-nas-qos" revision="7e8d363cdf0be5ee0cc1af88180e468bcac3a563"/>
 
