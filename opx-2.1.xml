@@ -6,64 +6,13 @@
 
   <default remote="opx" revision="master" sync-j="4"/>
 
-  <!-- The following section is for platform-specific configuration files-->
+  <!-- The following section is for platform-specific configuration files -->
   <project name="opx-platform-config" remote="pyadvichuk"/>
 
-  <!-- The following section is for infrastructure and libraries-->
-  <project path="opx-common-utils" name="opx/opx-common-utils"/>
-  <project path="opx-cps" name="opx/opx-cps" revision="d5e87778229b4ca8eda341689dc5cb86a8ea39bb"/>
-  <project path="opx-db-sql" name="opx/opx-db-sql" revision="467144bdb5cc9dcb26376ad6c0a947451ea2702b"/>
-  <project path="opx-logging" name="opx/opx-logging" revision="574a1baff1893327555331523be835953bd2e50a"/>
-
-  <!-- The following section is for API model definitions -->
-  <project path="opx-base-model" name="opx/opx-base-model" revision="97a3c23cff7f694fe9c9aec200df104a05861026"/>
-
-  <!-- The following section is for all networking related functions including ACLs, QoS, etc.. -->
-  <project path="opx-nas-acl" name="opx/opx-nas-acl" revision="805d589c99397529645ba97533fa0dc2d5cb0de4"/>
-  <project path="opx-nas-common" name="opx/opx-nas-common" revision="8301751f7bfd56cc2b263f1281b769d5746f3a14"/>
-  <project path="opx-nas-daemon" name="opx/opx-nas-daemon" revision="8283f2bd178a48530d8305cd6fc23c6376ddb3ff"/>
-  <project path="opx-nas-interface" name="opx/opx-nas-interface" revision="712f7fcd47f61c6519e8a99acbbeba837574bcb8"/>
-  <project path="opx-nas-l2" name="opx/opx-nas-l2" revision="ab555ab8120a473195a305ab7588f307ae97b1d9"/>
-  <project path="opx-nas-l3" name="opx/opx-nas-l3" revision="b92469016ed1e26d314e64da125102dae45caf78"/>
+  <!-- Compile it locally as we need some patch not included to v2.1-->
   <project path="opx-nas-ndi" name="opx/opx-nas-ndi" revision="26d90e2fd5092a9b1801474ad24374cf75e22ee1"/>
-  <project path="opx-nas-ndi-api" name="opx/opx-nas-ndi-api" revision="94bbe14ef418f53759adc2919f6df48ebbf85f6b"/>
-  <project path="opx-nas-qos" name="opx/opx-nas-qos" revision="7e8d363cdf0be5ee0cc1af88180e468bcac3a563"/>
-
-  <!-- The following section is for the linux adaption layer - essentially the hooks allowing linux to work with the rest of the system -->
-  <project path="opx-nas-linux" name="opx/opx-nas-linux" revision="58a427fb3ac3aede5d20a56892d76c455ecdae1f"/>
-
-  <!-- SAI -->
-  <project path="opx-sai-api" name="SAI" revision="dell.0.96+" remote="opx-github"/>
-  <project path="opx-sai-common" name="opx/opx-sai-common" revision="12aee14428d83914a760667632e4ac37c5777d2f"/>
-  <project path="opx-sai-common-utils" name="opx/opx-sai-common-utils" revision="a32833af065df7b4a9302dabe5b9c8e9f22d5973"/>
-  <project path="opx-sai-vm" name="opx/opx-sai-vm"/>
-
-  <!-- The following section is for platform service configuration -->
-  <project path="opx-pas" name="opx/opx-pas" revision="27a036ab04af9abfd8167657fb28c1e34dbf4c35"/>
-
-  <!-- SDI -->
-  <project path="opx-sdi-api" name="opx/opx-sdi-api" revision="5c1ebbdd905df7f918d89f6226a299f7043b9f71"/>
-  <project path="opx-sdi-device-drivers" name="opx/opx-sdi-device-drivers" revision="a57c7bc6400df7750b5e92443d14478317845e9e"/>
-  <project path="opx-sdi-sys" name="opx/opx-sdi-sys" revision="829bce7cb843345376647a7461e0ef257eca8b34"/>
-  <project path="opx-sdi-sys-vm" name="opx/opx-sdi-sys-vm" revision="2feb540244021c7b08066896cf38f95c2ed3c1a6"/>
-  <project path="opx-sdi-framework" name="opx/opx-sdi-framework" revision="41e1a602efee9488c4d1081919ee2c1b054f8aec"/>
-
-  <!-- SDI implementation for Mellanox platforms -->
-  <project name="opx-mlnx-sdi-sys" remote="opx-github"/>
-
-  <!-- The following section is for the remaining miscellaneous packages -->
-  <project path="opx-tmpctl" name="opx/opx-tmpctl" revision="accd91e036f80d714d21752b39b0ec9feaa612fc"/>
-
-  <!-- The alarm/LED service -->
-  <project path="opx-alarm" name="opx/opx-alarm" revision="6dd1ca507eced35dc67584f0e1fac43ddcdc35ae"/>
-
-  <!-- Miscellaneous tools -->
-  <project path="opx-tools" name="opx/opx-tools" revision="8407e83bee517abb39b3ab5f294d341bfe277bad"/>
 
   <!-- The following section is for build tools and scripts -->
   <project path="opx-build" name="opx/opx-build"/>
   <project name="opx-onie-installer" remote="pyadvichuk" revision="opx-onie-installer-cavm"/>
-
-  <!-- The metapackage containing all platform-independent packages -->
-  <project path="opx-core" name="opx/opx-core" revision="d58539a114e0df6118251319d540424f166ec9ce"/>
 </manifest>
