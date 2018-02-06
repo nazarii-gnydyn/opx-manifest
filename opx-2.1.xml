@@ -36,7 +36,7 @@
   <project path="opx-sai-api" name="SAI" revision="dell.0.96+" remote="opx-github"/>
   <project path="opx-sai-common" name="opx/opx-sai-common" revision="12aee14428d83914a760667632e4ac37c5777d2f"/>
   <project path="opx-sai-common-utils" name="opx/opx-sai-common-utils" revision="a32833af065df7b4a9302dabe5b9c8e9f22d5973"/>
-  <project path="opx-sai-vm" name="opx/opx-sai-vm"/>
+  <project path="opx-sai-vm" name="opx/opx-sai-vm" revision="37e14e6d3d198408a00120215672a132a7f566b8"/>
 
   <!-- The following section is for platform service configuration -->
   <project path="opx-pas" name="opx/opx-pas" revision="27a036ab04af9abfd8167657fb28c1e34dbf4c35"/>
@@ -61,7 +61,7 @@
   <project path="opx-tools" name="opx/opx-tools" revision="8407e83bee517abb39b3ab5f294d341bfe277bad"/>
 
   <!-- The following section is for build tools and scripts -->
-  <project path="opx-build" name="opx/opx-build"/>
+  <project path="opx-build" name="opx/opx-build" revision="70aa69c8eb3021ee46f54e75afa2d3edadd309cf"/>
   <project name="opx-onie-installer" remote="pyadvichuk" revision="opx-onie-installer-cavm"/>
 
   <!-- The metapackage containing all platform-independent packages -->

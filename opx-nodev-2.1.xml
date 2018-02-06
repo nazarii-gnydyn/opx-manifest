@@ -13,6 +13,6 @@
   <project path="opx-nas-ndi" name="opx/opx-nas-ndi" revision="26d90e2fd5092a9b1801474ad24374cf75e22ee1"/>
 
   <!-- The following section is for build tools and scripts -->
-  <project path="opx-build" name="opx/opx-build"/>
+  <project path="opx-build" name="opx/opx-build" revision="70aa69c8eb3021ee46f54e75afa2d3edadd309cf"/>
   <project name="opx-onie-installer" remote="pyadvichuk" revision="opx-onie-installer-cavm"/>
 </manifest>
