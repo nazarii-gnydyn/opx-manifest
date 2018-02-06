@@ -10,7 +10,7 @@
   <project name="opx-platform-config" remote="pyadvichuk"/>
 
   <!-- The following section is for infrastructure and libraries-->
-  <project path="opx-common-utils" name="opx/opx-common-utils"/>
+  <project path="opx-common-utils" name="opx/opx-common-utils" revision="fd5b2937b7bf3bf176decb6cf53502d1131afb98"/>
   <project path="opx-cps" name="opx/opx-cps" revision="d5e87778229b4ca8eda341689dc5cb86a8ea39bb"/>
   <project path="opx-db-sql" name="opx/opx-db-sql" revision="467144bdb5cc9dcb26376ad6c0a947451ea2702b"/>
   <project path="opx-logging" name="opx/opx-logging" revision="574a1baff1893327555331523be835953bd2e50a"/>
