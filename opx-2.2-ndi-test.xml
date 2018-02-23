@@ -7,7 +7,7 @@
 
   <default remote="origin" revision="master" sync-j="4"/>
 
-  <project path="opx-nas-ndi" name="opx/opx-nas-ndi" remote="pyadvichuk"/>
+  <project path="opx-nas-ndi" name="opx-nas-ndi" remote="pyadvichuk"/>
   <project path="opx-sai-api" name="SAI" revision="dell.1.2+" remote="opx-github"/>
   <project path="opx-build" name="opx/opx-build"/>
 
