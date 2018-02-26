@@ -2,12 +2,11 @@
 <manifest>
   <remote name="origin" fetch="https://git.openswitch.net" review="review.openswitch.net"/>
   <remote name="opx-github" fetch="https://github.com/open-switch"/>
-  <remote name="pkarashchenko" fetch="https://github.com/pkarashchenko" revision="as7512-32x-dev"/>
 
   <default remote="origin" revision="master" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
-  <project name="opx-platform-config" remote="pkarashchenko"/>
+  <project path="opx-platform-config" name="opx/opx-platform-config"/>
 
   <!-- The following section is for infrastructure and libraries-->
   <project path="opx-common-utils" name="opx/opx-common-utils"/>
